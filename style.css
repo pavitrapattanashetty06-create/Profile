@@ -1,0 +1,94 @@
+
+:root {
+    --primary-bg-color: #f8f4f4; 
+    --text-color: #343a40; 
+    --muted-color: #6c757d;
+    --logo-color: #8b0000; 
+    --main-font: 'Roboto', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    background-color: var(--primary-bg-color); 
+}
+
+
+.custom-container {
+    max-width: 1100px;
+}
+
+.custom-navbar-bg {
+    background-color: var(--primary-bg-color);
+}
+
+.navbar-brand {
+    color: var(--text-color) !important;
+}
+
+.ac-logo {
+    width: 40px;
+    height: 40px;
+    background-color: transparent; 
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.custom-nav-link {
+    color: var(--text-color) !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    font-size: 0.95rem;
+}
+
+.custom-nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.profile-img {
+    border-radius: 4px; 
+}
+
+.about-me-tag {
+    font-size: 0.75rem;
+    color: var(--muted-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.custom-heading {
+    font-family: var(--heading-font);
+    font-weight: 400; 
+    line-height: 1.2;
+    font-size: 3.5rem; 
+.bio-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+.custom-btn {
+    border-radius: 0; 
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-color: var(--text-color) !important;
+    color: var(--text-color) !important;
+}
+
+.custom-btn:hover {
+    background-color: var(--text-color) !important;
+    color: white !important;
+}
